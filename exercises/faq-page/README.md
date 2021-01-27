@@ -17,6 +17,15 @@
 
   - The workspace should then start up and when complete you should be back in the cloud IDE.
 
+### YAML and formatting in the IDE - keyboard shortcuts
+
+Love indenting `yaml` .. or is it `yml` ? Some Quick tips when cutting and pasting code into the cloud IDE from the notes does not always indent it correctly. Use these shrortcuts to help:
+
+  - use `Shift-(up|down arrow keys)` to select a code block (or use mouse)
+  - use `Ctrl-[` to indent the block left 2 spaces
+  - use `Ctrl-]` to indent the block right 2 spaces
+  - use `Ctrl-s` to save
+
 ### How do I get the OpenShift login token?
 
   - Login to the cluster at the cluster URL provided.
