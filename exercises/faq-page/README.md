@@ -40,6 +40,12 @@ Love indenting `yaml` .. or is it `yml` ? Some Quick tips when cutting and pasti
 
   - Paste the command in your cloud ide terminal. You should then be logged in. As a way to confirm, run `oc whoami` and you should see your username for the cluster.
 
+### Git URLs
+
+The easiest way to cut and paste you URL's for your git repositories, is to login to gitlab, and use the `Clone with HTTPS` drop down
+
+![gitlab-url](../images/faq/gitlab-url.png)
+
 ## Labs Cheat Sheet
 
 This cheat sheet will give you some of the most useful commands and tips which you will need to complete the exercises. This should be most helpful to non-techies who need to get up to speed with command line techniques. If you come across anything else which would be useful during the enablement, write it on a post-it and add it to the real time retro or raise a pull request.
