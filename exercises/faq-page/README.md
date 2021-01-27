@@ -40,6 +40,23 @@ Love indenting `yaml` .. or is it `yml` ? Some Quick tips when cutting and pasti
 
   - Paste the command in your cloud ide terminal. You should then be logged in. As a way to confirm, run `oc whoami` and you should see your username for the cluster.
 
+Useful cli login commands
+```bash
+# help ! on all commands -h or --help
+oc login -h
+
+# example openshift cli token login
+oc login --token=<token> --server=https://api.<ocp cluster url>:6443
+
+# use your username and password
+oc login -u <username> -p <password> --server=https://api.<ocp cluster url>:6443
+
+# when logged in, show the current console url, api url, token
+oc whoami --show-console
+oc whoami --show-server
+oc whoami --show-token
+```
+
 ### Git URLs
 
 The easiest way to cut and paste you URL's for your git repositories, is to login to gitlab, and use the `Clone with HTTPS` drop down
